@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Ronakp/static/css/main.c7d72275.css",
+    "main.js": "/Ronakp/static/js/main.ec8eed20.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Ronakp/static/js/787.28cb0dcd.chunk.js",
+    "static/media/image1.jpg": "/Ronakp/static/media/image1.960981d520c7006e542e.jpg",
+    "static/media/images.png": "/Ronakp/static/media/images.a997f8ce68292d63f038.png",
+    "static/media/image2.jfif": "/Ronakp/static/media/image2.730d9e20132ef9a3c4a9.jfif",
+    "static/media/image3.jfif": "/Ronakp/static/media/image3.5e8ff66846f9dfce6cbb.jfif",
+    "index.html": "/Ronakp/index.html",
+    "main.c7d72275.css.map": "/Ronakp/static/css/main.c7d72275.css.map",
+    "main.ec8eed20.js.map": "/Ronakp/static/js/main.ec8eed20.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Ronakp/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c7d72275.css",
+    "static/js/main.ec8eed20.js"
+  ]
+}
