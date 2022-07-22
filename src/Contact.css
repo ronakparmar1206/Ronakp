@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.scontainer {
+    
+        width: 30%;
+        height: 100vh;
+        padding-top: 12rem;
+    
+    
+}
+h4 {
+    font-size: 22px;
+    color: grey;
+}
+.name{
+    padding: 10px;
+}
+input.input {
+    width: 100%;
+    border: 1px solid black;
+    padding: 10px;
+}
+             
+    .btn-grad {
+        background-image: linear-gradient(to right, #02AAB0 0%, #00CDAC  51%, #02AAB0  100%);
+        
+        padding: 15px 45px;
+        text-align: center;
+        text-transform: uppercase;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: white;            
+        box-shadow: 0 0 20px #eee;
+        border-radius: 10px;
+        display: block;
+      }
+
+      .btn-grad:hover {
+        background-position: right center; /* change the direction of the change here */
+        color: #fff;
+        text-decoration: none;
+      }
+     

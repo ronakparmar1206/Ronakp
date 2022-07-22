@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+        box-sizing: border-box;
+
+}
+.forflex{
+    display: none;
+}
+.nav{
+    display:flex;
+    max-width: 80%;
+    /* margin: auto; */
+    
+    font-size: 1rem;
+    gap: 2rem;
+ display: flex;
+ justify-content:end;
+}
+
+.nav li{
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.heading{
+    margin-left: 5rem;
+    padding-top: 13rem;
+}
+.heading button{
+    background:none;
+    padding:10px 20px;
+    border: 1px solid blue;
+    border-radius: 20px;
+    margin-top: 0.5rem;
+    /* margin-left: 5rem; */
+
+}
+.heading p{
+    color: grey;
+}
+.heading span{
+    color:aqua
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.image{
+    margin-top: 5rem;
+}
+    .image img{
+        width: 500px;
+        height: 500px;
+       
+        animation: updown 2s linear infinite alternate;
+        
+    }
+    @keyframes updown {
+        0%{
+            transform: translateY(-10px);
+        }
+        100%{
+            transform: translateY(15px);
+        }
+    }
+    .show{
+        display: none;
+    }
+    .hide{
+        display: none;
+    }
+   
+    @media screen and (max-width:600px) {
+        .show{
+            display: block;
+        }
+        .heading{
+            margin-left: 2rem;
+            padding-top: 13rem;
+        }
+        
+.image img {
+    width: 200px;
+    height: 200px;
+    /* height: 500px; */
+    animation: updown 2s linear infinite alternate;
+}
+.image{
+               margin-top: 5rem;
+        }
+    
+    
+
+        .nav{
+         display:none;  
+         /* transition: 0.3s ease-in-out */
+        }
+        .hide1{
+            display: block;
+        }
+        .forflex{
+            display: flex;
+            position: relative;
+        }
+        .close{
+            position: absolute;
+            bottom: 0;
+        }
+        .dd {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            width: 200px;
+            height: 266px;
+            /* background: red; */
+            gap: 3rem;
+            padding-left: 1rem;
+        }
+    
+    }
+  
